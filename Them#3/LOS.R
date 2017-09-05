@@ -1,0 +1,156 @@
+	rm(list = ls(all = TRUE))
+	#read csv file along with header
+	setwd("/data/manipal/HackathonDatasets/")
+	data1 = read.csv("final1.csv",header=T)
+
+
+	# Removing Outliers
+	data<-data1[-which(data1$Los==max(data1$Los)),]
+	data1<-data
+	data<-data1[-which(data1$Los==max(data1$Los)),]
+	data1<-data
+	data<-data1[-which(data1$Los==max(data1$Los)),]
+	data1<-data
+	data<-data1[-which(data1$Los==max(data1$Los)),]
+	data1<-data
+	data<-data1[-which(data1$Los==max(data1$Los)),]
+	data1<-data
+	data<-data1[-which(data1$Age==max(data1$Age)),]
+	data1<-data
+	data<-data1[-which(data1$Age==max(data1$Age)),]
+	data1<-data
+	data<-data1[-which(data1$Age==max(data1$Age)),]
+	data1<-data
+	data<-data1[-which(data1$Age==max(data1$Age)),]
+	data1<-data
+	data<-data1[-which(data1$Age==max(data1$Age)),]
+	data1<-data
+	data<-data1[-which(data1$Age==min(data1$Age)),]
+	data1<-data
+	data<-data1[-which(data1$Age==min(data1$Age)),]
+	data1<-data
+	data<-data1[-which(data1$Age==min(data1$Age)),]
+	data1<-data
+	data<-data1[-which(data1$Age==min(data1$Age)),]
+	data1<-data
+	data<-data1[-which(data1$Age==min(data1$Age)),]
+	data1<-data
+	data<-data1[-which(data1$Age==min(data1$Age)),]
+	data1<-data
+	data<-data1[-which(data1$Age==min(data1$Age)),]
+	data1<-data
+	data<-data1[-which(data1$Age==min(data1$Age)),]
+	data1<-data
+	data<-data1[-which(data1$Age==min(data1$Age)),]
+	data1<-data
+	data<-data1[-which(data1$Age==min(data1$Age)),]
+	data1<-data
+	data<-data1[-which(data1$BMI==max(data1$BMI)),]
+	data1<-data
+	data<-data1[-which(data1$BMI==max(data1$BMI)),]
+	data1<-data
+	data<-data1[-which(data1$BMI==max(data1$BMI)),]
+	data1<-data
+	data<-data1[-which(data1$BMI==max(data1$BMI)),]
+	data1<-data
+	data<-data1[-which(data1$HC==max(data1$HC)),]
+	data1<-data
+	data<-data1[-which(data1$HC==max(data1$HC)),]
+	data1<-data
+	data<-data1[-which(data1$w.H.ratio==max(data1$w.H.ratio)),]
+	data1<-data
+	data<-data1[-which(data1$w.H.ratio==max(data1$w.H.ratio)),]
+	data1<-data
+	data<-data1[-which(data1$DM==max(data1$DM)),]
+	data1<-data
+	data<-data1[-which(data1$DM==max(data1$DM)),]
+	data1<-data
+	data<-data1[-which(data1$Pre...Physical.Ex==max(data1$Pre...Physical.Ex)),]
+	data1<-data
+	data<-data1[-which(data1$HDL==max(data1$HDL)),]
+	data1<-data
+	data<-data1[-which(data1$HDL==max(data1$HDL)),]
+	data1<-data
+	data<-data1[-which(data1$Trop..T==max(data1$Trop..T)),]
+	data1<-data
+	data<-data1[-which(data1$Trop..T==max(data1$Trop..T)),]
+	data1<-data
+	data<-data1[-which(data1$Trop..T==max(data1$Trop..T)),]
+	data1<-data
+	data<-data1[-which(data1$NT.proBNP==max(data1$NT.proBNP)),]
+	data1<-data
+	data<-data1[-which(data1$DM.DUR==max(data1$DM.DUR)),]
+	data1<-data
+	data<-data1[-which(data1$DM.DUR==max(data1$DM.DUR)),]
+	data1<-data
+	data<-data1[-which(data1$DM.DUR==max(data1$DM.DUR)),]
+	data1<-data
+	data<-data1[-which(data1$DM.DUR==max(data1$DM.DUR)),]
+	data1<-data
+	data<-data1[-which(data1$DM.DUR==max(data1$DM.DUR)),]
+	data1<-data
+	data<-data1[-which(data1$DM.DUR==max(data1$DM.DUR)),]
+	data1<-data
+	data<-data1[-which(data1$DM.DUR==max(data1$DM.DUR)),]
+	data1<-data
+	data<-data1[-which(data1$DM.DUR==max(data1$DM.DUR)),]
+	data1<-data
+	data<-data1[-which(data1$DM.DUR==max(data1$DM.DUR)),]
+	data1<-data
+	data<-data1[-which(data1$DM.DUR==max(data1$DM.DUR)),]
+	data1<-data
+	data<-data1[-which(data1$DM.DUR==max(data1$DM.DUR)),]
+	data1<-data
+	data<-data1[-which(data1$DM.DUR==max(data1$DM.DUR)),]
+	data1<-data
+	data<-data1[-which(data1$DM.DUR==max(data1$DM.DUR)),]
+	data1<-data
+	data<-data1[-which(data1$DM.DUR==max(data1$DM.DUR)),]
+	data1<-data
+	data<-data1[-which(data1$DM.DUR==max(data1$DM.DUR)),]
+	data1<-data
+	data<-data1[-which(data1$Creat==max(data1$Creat)),]
+	data1<-data
+	data<-data1[-which(data1$Creat==max(data1$Creat)),]
+	data1<-data
+	data<-data1[-which(data1$Creat==max(data1$Creat)),]
+	data1<-data
+	data<-data1[-which(data1$Creat==max(data1$Creat)),]
+	data1<-data
+	data<-data1[-which(data1$FBS==max(data1$FBS)),]
+	data1<-data
+	data<-data1[-which(data1$FBS==max(data1$FBS)),]
+	data1<-data
+	
+
+
+
+	summary(data1)
+
+
+	target_variable <-data1$Los
+	independent_variables <- subset(data1,select = -c(Los))
+	library(vegan)
+	independent_variables <- decostand(independent_variables,"range")
+	Lospat <- data.frame(independent_variables,Los = target_variable)
+
+	set.seed(123)
+	num_Records <- nrow(Lospat)
+	train_Index <- sample(1:num_Records,round(num_Records * .2,digits = 0))
+	train_data <- Lospat[train_Index,]
+	test_data <- Lospat[-train_Index,]
+	rm(train_Index)
+	#Perform regression on all features
+	LosRegressionModel <- lm(formula = Los ~ .,data = train_data)
+	summary(LosRegressionModel)
+	#additional factors
+	#selectedFormula = "Los ~ vessel_score + Dyslipidemia  + Gutka + pre.diet + pre.Bpcheck.up  + Mobility + LDL + HDL + Self.care + EF + NT.proBNP + DM + DM.DUR +DBP+CVD +FRS +Anxiety.Depression "
+	#selectedFormula = "Los ~ vessel_score +  pre.diet + Mobility  + NT.proBNP + EF + Self.care"
+	selectedFormula = "Los ~   NT.proBNP + LDL + TC + Smoking + pre.diet + ACS_Score + CVD  + DBP  + vessel_score +FRS + Angina.Class + Gutka"
+	revisedLosRegressionModel <- lm(formula = as.formula(selectedFormula),data = train_data)
+	summary(revisedLosRegressionModel)
+	library(DMwR)
+	regr.eval(train_data$Los,revisedLosRegressionModel$fitted.values)
+	regr.eval(train_data$Los,LosRegressionModel$fitted.values)
+	testpredictions <- predict(revisedLosRegressionModel,newdata = test_data)
+	boxplot(data1$Los,data1$NT.proBNP)
